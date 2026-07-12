@@ -1,0 +1,11 @@
+{
+  "name": "reminder-bot",
+  "scripts": {
+    "start": "node --env-file=.env index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "node-cron": "^4.2.1",
+    "node-telegram-bot-api": "^0.67.0"
+  }
+}
